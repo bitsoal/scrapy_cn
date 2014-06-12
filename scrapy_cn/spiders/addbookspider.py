@@ -10,7 +10,7 @@ from scrapy.spider import Spider
 from scrapy.http import Request
 from scrapy.selector import Selector
 from urlparse import urljoin
-from items import ScrapyCnItem
+from scrapy_cn.items import ScrapyCnItem
 from scrapy import log
 from scrapy.contrib.loader import ItemLoader
 
@@ -21,9 +21,9 @@ class AddbookSpider(Spider):
     """
     name = "onepage"
     base_domian = "book.douban.com"
-    start_urls = (
+    start_urls = [
             "http://book.douban.com/tag/Programming"
-            )
+            ]
 
     def parse(self, response):
         doc = Selector(response)

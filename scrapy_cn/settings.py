@@ -11,15 +11,15 @@ BOT_NAME = 'scrapy_cn'
 SPIDER_MODULES = ['scrapy_cn.spiders']
 NEWSPIDER_MODULE = 'scrapy_cn.spiders'
 
-BOT_NAME = 'reminder'
+BOT_NAME = 'onepage'
 
-SPIDER_MODULES = ['reminder.spiders']
-NEWSPIDER_MODULE = 'reminder.spiders'
+SPIDER_MODULES = ['scrapy_cn.spiders']
+NEWSPIDER_MODULE = 'scrapy_cn.spiders'
 
 #Sets spider pipes
 ITEM_PIPELINES = {
                   'scrapy_cn.pipelines.JsonPipeline':200,
-                  'scrapy_cn.pipelines.MysqlPipeline':300,
+#                  'scrapy_cn.pipelines.MysqlPipeline':300,
 #                  'scrapy.contrib.pipeline.images.ImagesPipeline': 1
                   }
 #Sets delay
