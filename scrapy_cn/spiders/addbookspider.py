@@ -28,13 +28,13 @@ class AddbookSpider(Spider):
     def parse(self, response):
         doc = Selector(response)
         item = ScrapyCnItem()
-        sect = doc.xpath("//ul[@class='subject-list']")
+        sect = doc.xpath("//li[@class='subject-item']")
         for s in sect:
-            title = s.xpath(".//li/div[@class='info']//a/@title").extract()
-            href = s.xpath(".//li/div[@class='info']//a/@href").extract()
-            img = s.xpath(".//li/div[@class='pic']//img/@src").extract()
-            desc = s.xpath(".//li/div[@class='info']/p/text()").extract()
+            title = s.xpath(".//div[@class='info']//a/@title").extract()
+            href = s.xpath(".//div[@class='info']//a/@href").extract()
+            img = s.xpath(".//div[@class='pic']//img/@src").extract()
+            desc = s.xpath(".//div[@class='info']/p/text()").extract()
             item["title"] = [t.encode('utf-8') for t in title]
             item["img"] = [i.encode('utf-8') for i in img]
             item["desc"] = [d.encode('utf-8') for d in desc]
-            return item
+            yield item
