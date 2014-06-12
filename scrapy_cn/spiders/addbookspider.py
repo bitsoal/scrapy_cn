@@ -37,4 +37,4 @@ class AddbookSpider(Spider):
             item["title"] = [t.encode('utf-8') for t in title]
             item["img"] = [i.encode('utf-8') for i in img]
             item["desc"] = [d.encode('utf-8') for d in desc]
-        return item
+            return item

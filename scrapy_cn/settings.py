@@ -11,11 +11,6 @@ BOT_NAME = 'scrapy_cn'
 SPIDER_MODULES = ['scrapy_cn.spiders']
 NEWSPIDER_MODULE = 'scrapy_cn.spiders'
 
-BOT_NAME = 'onepage'
-
-SPIDER_MODULES = ['scrapy_cn.spiders']
-NEWSPIDER_MODULE = 'scrapy_cn.spiders'
-
 #Sets spider pipes
 ITEM_PIPELINES = {
                   'scrapy_cn.pipelines.JsonPipeline':200,
