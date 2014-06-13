@@ -18,11 +18,34 @@ Install::
 
 Usage::
 
-    $cd scrapy_cn
+    $cd demo/scrapy_cn
     $scrapy list
-    $scrapy crawl onepage       #
-    $scrapy crawl morepage      #
+    $scrapy crawl onepage
+
+项目介绍
+--------------------------
+
+项目结构::
+
+    scrapy_cn/
+        -doc/       ...关于工具插件的使用指南
+        -tools/     ...开发中scrapy有用的插件，使用参考doc
+        -demo/      ...简单的中文网站抓取爬虫实现
+        -scale/     ...较大规模的爬虫设计以及配置
+        -linkbase/  ...Linkbase基础爬虫实现
+        -schedule/  ...可调度爬虫的简单实现
+        -distrib/   ...分布式负载
+
+TODOS:
+-----------------
+
+ * 开放部分scrapy用到的组件
+ * 设计一个打规模爬虫的范例，以示大规模爬虫设计的要点，以及解决常见问题手段
+ * 开放Linkbase抓取的爬虫
+ * 开放可管理调度任务的爬虫
+ * 大规模任务负载的分布式处理实现
 
 Lisence
 ===========
+
    BSD Lisence
