@@ -2,8 +2,6 @@ Scrapy project as a chinese tutorial
 ====================================
 scrapy中文学习项目
 
-更多scrapy相关资料参考：<www.addbook.cn>
-
 以抓取豆瓣图书中的编程图书为例：
 地址：<http://book.douban.com/tag/Programming>
 
@@ -35,6 +33,12 @@ Usage::
         -linkbase/  ...Linkbase基础爬虫实现
         -schedule/  ...可调度爬虫的简单实现
         -distrib/   ...分布式负载
+
+Contact:
+----------
+QQ群:282889215
+email:<hipkeep(at)gmail.com>
+blog:<www.addbook.cn/scrapy>
 
 TODOS:
 -----------------
