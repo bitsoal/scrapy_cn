@@ -37,9 +37,9 @@ Usage::
 Contact:
 ----------
 
- QQ群:282889215  
- email:<hipkeep(at)gmail.com>  
- blog:<www.addbook.cn/scrapy>  
+ * QQ群:282889215  
+ * email:<hipkeep(at)gmail.com>  
+ * blog:<www.addbook.cn/scrapy>  
 
 TODOS:
 -----------------
