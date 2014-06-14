@@ -29,7 +29,7 @@ Usage::
         -doc/       ...关于工具插件的使用指南
         -tools/     ...开发中scrapy有用的插件，使用参考doc
         -demo/      ...简单的中文网站抓取爬虫实现
-        -scale/     ...较大规模的爬虫设计以及配置
+        -crawl/     ...较大规模的爬虫设计以及配置
         -linkbase/  ...Linkbase基础爬虫实现
         -schedule/  ...可调度爬虫的简单实现
         -distrib/   ...分布式负载
@@ -38,7 +38,6 @@ Contact:
 ----------
 
  * QQ群:282889215  
- * email:<hipkeep(at)gmail.com>  
  * blog:<www.addbook.cn/scrapy>  
 
 TODOS:
