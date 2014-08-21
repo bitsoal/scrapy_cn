@@ -1,18 +1,27 @@
-Scrapy project as a chinese tutorial 
+Scrapy  tutorial project
 ====================================
-scrapy中文学习项目
+seed：<http://book.douban.com/tag/Programming>
 
-以抓取豆瓣图书中的编程图书为例：
-地址：<http://book.douban.com/tag/Programming>
+Glance
+----------
+ * finished
+   1. 使用docker创建runtime容器
+   2. demo
 
-requirements::
+ * 现有爬虫
+   onepage
+   multipage
 
-    scrapy >= 0.22
-    python == 2.7
+ * tudos
+   脚本bootstrap
+   多个爬虫任务的runtime
+   js处理
+   celery的爬虫调度控制
 
 Install::
 
-    git clone https://github.com/addwork/scrapy_cn.git
+    git clone https://github.com/addwork/scrapy_cn.git、
+    pip install -r requirements.txt
 
 Usage::
 
