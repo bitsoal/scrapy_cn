@@ -26,9 +26,7 @@ Build with docker::
     $sudo docker -t -i addbook/scrapy-doccker
     $root@xxxxxx:scrapy
 
-In your containers you can see:
-
- ..Image::./doc/images/scrapy_docker.jpg
+..Image::./doc/images/scrapy_docker.jpg
 
 项目介绍
 --------------------------
