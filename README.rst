@@ -20,6 +20,16 @@ Usage::
     $scrapy list
     $scrapy crawl onepage
 
+Build with docker::
+
+    $sudo docker build -t addbook/scrapy-docker .
+    $sudo docker -t -i addbook/scrapy-doccker
+    $root@xxxxxx:scrapy
+
+In your containers you can see:
+
+ ..Image::./doc/images/scrapy_docker.jpg
+
 项目介绍
 --------------------------
 
