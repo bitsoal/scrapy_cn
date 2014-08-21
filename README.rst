@@ -26,7 +26,7 @@ Build with docker::
     $sudo docker -t -i addbook/scrapy-doccker
     $root@xxxxxx:scrapy
 
-.. Image::https://raw.github.com/addwork/scrapy_cn/blob/master/doc/images/scrapy_docker.jpg
+.. Image:: https://raw.github.com/addwork/scrapy_cn/blob/master/doc/images/scrapy_docker.jpg
 
 项目介绍
 --------------------------
