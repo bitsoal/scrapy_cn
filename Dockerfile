@@ -9,3 +9,10 @@ RUN echo "deb http://archive.scrapy.org/ubuntu precise main" > /etc/apt/sources.
 RUN apt-get update
 
 RUN apt-get install -y scrapy-0.23
+RUN apt-get install -y git
+RUN apt-get install -y python-pip
+
+RUN mkdir /home/web/
+RUN (cd /home/web && git clone https://github.com/addwork/scrapy_cn.git)
+RUN (cd /home/web/scrapy_cn && pip install -r requirements.txt)
+
