@@ -6,10 +6,6 @@
 from mongokit import *
 import datetime
 import hashlib
-import uuid
-import hmac
-
-from .. import settings
 
 __all__ = ['Project', 'Linkbase']
 
