@@ -4,6 +4,8 @@
 # Author: YuanLin
 
 """Crawl Parsing script.
+   --------------------
+   Parse data form html format.
 """
 
 from scrapy.spider import Spider
@@ -32,4 +34,3 @@ class DetailSpider(Spider):
 
     def parse(self, response):
         pass
-

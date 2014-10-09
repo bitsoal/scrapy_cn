@@ -1,3 +1,4 @@
 celery
 billiard
 redis
+mongokit
