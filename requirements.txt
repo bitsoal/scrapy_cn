@@ -1,0 +1,4 @@
+celery
+billiard
+redis
+mongokit

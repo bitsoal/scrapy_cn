@@ -13,3 +13,8 @@ NEWSPIDER_MODULE = 'crawl.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'crawl (+http://www.yourdomain.com)'
+
+MONGO_URI = 'mongodb://localhost:27017/'
+MONGO_DB = 'gronto'
+
+REDIS_URI = 'redis://localhost:6379/1'

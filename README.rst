@@ -1,24 +1,41 @@
-Scrapy project as a chinese tutorial 
+Scrapy  tutorial project
 ====================================
-scrapy中文学习项目
+seed：<http://book.douban.com/tag/Programming>
 
-以抓取豆瓣图书中的编程图书为例：
-地址：<http://book.douban.com/tag/Programming>
+Glance
+----------
+ * finished
+   1. 使用docker创建runtime容器
+   2. demo
 
-requirements::
+ * 现有爬虫
+   onepage
+   multipage
 
-    scrapy >= 0.22
-    python == 2.7
+ * tudos
+   脚本bootstrap
+   多个爬虫任务的runtime
+   js处理
+   celery的爬虫调度控制
 
 Install::
 
-    git clone https://github.com/addwork/scrapy_cn.git
+    git clone https://github.com/addwork/scrapy_cn.git、
+    pip install -r requirements.txt
 
 Usage::
 
     $cd demo/scrapy_cn
     $scrapy list
     $scrapy crawl onepage
+
+Build with docker::
+
+    $sudo docker build -t addbook/scrapy-docker .
+    $sudo docker -t -i addbook/scrapy-doccker
+    $root@xxxxxx:scrapy
+
+.. Image:: https://github.com/addwork/scrapy_cn/blob/master/doc/images/scrapy_docker.jpg?raw=true
 
 项目介绍
 --------------------------
@@ -44,7 +61,7 @@ TODOS:
 -----------------
 
  * 开放部分scrapy用到的组件
- * 设计一个打规模爬虫的范例，以示大规模爬虫设计的要点，以及解决常见问题手段
+ * 设计一个大规模爬虫的范例，以示大规模爬虫设计的要点，以及解决常见问题手段
  * 开放Linkbase抓取的爬虫
  * 开放可管理调度任务的爬虫
  * 大规模任务负载的分布式处理实现
